@@ -2,46 +2,82 @@
 <html lang="ru" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Учитэль</title>
-    <link rel="stylesheet" type="text/css" href="styles/styles.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   </head>
   <body>
-    <header class="header">
-      <h1 class="name">Государственное бюджетное общеобразовательное учреждение города Москвы "Школа № 1569 "Созвездие"</h1>
-      <a class="name1">Школа коко-колы!</a>
-    </header>
-
-
-    <nav class="menu">
-      <ul class="topmenu">
-        <li><a href="index.html">О школе</a></li>
-        <li><a href="">Дисциплины<i class="fa fa-angle-down"></i></a>
-          <ul class="submenu">
-            <li><a href="math.html">математика</a></li>
-            <li><a href="chemistry.html">химия</a></li>
-            <li><a href="biology.html">биология</a></li>
-            <li><a href="info.html">информатика</a></li>
-          </ul>
-        </li>
-        <li><a href="contacts.html">Контакты</a></li>
-        <li><a href="cola.html">Коко-кола<i class="fa fa-angle-down"></i></a>
-          <ul class="submenu">
-            <li><a href="teacher.html">Классный руководитель</a></li>
-          </ul>
-        </li>
-      </ul>
-    </nav>
-
-<div class="phototeacher"><img class="phototeacher" src="img/teacher.jpg" alt="">
-  <p class="phototeachertext">
-    Классный руководитель: Райчева Елена Борисовна
-    </p>
-</div>
-
-
-
-<div class="footer">
+   <div class="container">
+  <header class="blog-header py-3">
+      <div class="px-4 pt-5 my-5 text-center border-bottom">
+    <h1 class="display-4 fw-bold">Школа № 1569 "Созвездие"</h1>
+    <div class="col-lg-6 mx-auto">
+      <p class="lead mb-4">Государственное бюджетное общеобразовательное учреждение города Москвы Школа № 1569 "Созвездие"</p>
+      <p class="lead mb-4">Школа коко-колы!</p>
+      <div class="d-grid gap-2 d-sm-flex justify-content-sm-center mb-5">
+      </div>
     </div>
+    <div class="overflow-hidden" style="max-height: 30vh;">
+    </div>
+  </div>
+  </header>
+</div>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" aria-label="Tenth navbar example">
+    <div class="container-fluid">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample08" aria-controls="navbarsExample08" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-md-center" id="navbarsExample08">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">О школе</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contacts.html">Контакты</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="teacher.html">Классный руководитель</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="dropdown08" data-bs-toggle="dropdown" aria-expanded="false">Дисциплины</a>
+            <ul class="dropdown-menu" aria-labelledby="dropdown08">
+              <li><a class="dropdown-item" href="math.html">Математика</a></li>
+              <li><a class="dropdown-item" href="chemistry.html">Химия</a></li>
+              <li><a class="dropdown-item" href="biology.html">Биология</a></li>
+              <li><a class="dropdown-item" href="info.html">Информатика</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+<div class="b-example-divider"></div>
+
+  <div class="container my-5">
+    <div class="row p-4 pb-0 pe-lg-0 pt-lg-5 align-items-center rounded-3 border shadow-lg">
+      <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
+        <h1 class="display-4 fw-bold lh-1">Классный руководитель:а</h1>
+        <p class="lead">Райчева Елена Борисовна</p>
+        <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
+        </div>
+      </div>
+      <div class="col-lg-4 offset-lg-1 p-0 overflow-hidden shadow-lg">
+          <img class="rounded-lg-3" src="img/teacher.jpg"" alt="" width="720">
+      </div>
+    </div>
+  </div>
+
+  <div class="b-example-divider"></div>
+ 
+<div class="container">
+  <footer class="py-3 my-4">
+    <p class="text-center text-muted">© 2022 Created by Мария Федорова</p>
+  </footer>
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 
   </body>
 </html>
